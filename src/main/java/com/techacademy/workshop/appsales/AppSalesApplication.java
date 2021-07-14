@@ -3,7 +3,8 @@ package com.techacademy.workshop.appsales;
 import com.techacademy.workshop.appsales.proxy.ProductProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication; 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 @SpringBootApplication
 public class AppSalesApplication {
@@ -14,10 +15,4 @@ public class AppSalesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AppSalesApplication.class, args);
 	}
-
-	
-
- 
- 
-
 }

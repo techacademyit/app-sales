@@ -13,5 +13,8 @@ import lombok.NoArgsConstructor;
 public class CustomerInfo implements Serializable {
     
     private Long code;
+    private String firstname;
+    private String lastname;
+    private String phone;
     private Collection<Product> products;
 }

@@ -17,7 +17,7 @@ public class CustomerInfoRestController {
 
 	private CustomerInfoService service;
 
-    @GetMapping(value="/{code}")
+    @GetMapping(value="/app/customer/{code}")
 	public Mono<CustomerInfo> getMethodName(@PathVariable("code") Long code) {
 		return service.find(code);
 	}
